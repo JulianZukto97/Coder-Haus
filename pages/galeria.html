@@ -1,62 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Haldor el Vendedor</title>
-    <link rel="stylesheet" href="../Assets/css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Haldor el Vendedor — Galería</title>
+    <link rel="stylesheet" href="/Assets/css/estilos.css" />
 </head>
 
 <body>
     <header>
-            <h1>Haldor el Vendedor</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li>    
-                        <a href="galeria.html">Galería</a>
-                    </li>
-                    <li>
-                        <a href="servicios.html">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-    </header>    
-    <div id="container-galeria">
+        <h1>Haldor el Vendedor</h1>
 
-        <Main>
+        <!-- Botón hamburguesa (visible en mobile) -->
+        <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menú">
+            ☰
+        </button>
+
+        <nav id="main-nav" aria-label="Menú principal">
+            <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/pages/nosotros.html">Nosotros</a></li>
+            <li><a href="/pages/galeria.html">Galería</a></li>
+            <li><a href="/pages/servicios.html">Servicios</a></li>
+            <li><a href="/pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container-galeria">
+        <main>
             <section class="section-geleria">
                 <h2 class="titulo-galeria">Galería de Haldor</h2>
-
                 <div class="item-galeria">
-                    <img src="/Proyecto Coder/Assets/img/haldor1.webp" alt="imagen1" width="200">
-                    <img src="/Proyecto Coder/Assets/img/haldor2.webp" alt="imagen2" width="200">
-                    <img src="/Proyecto Coder/Assets/img/haldor3.jpg" alt="imagen3" width="400">
-                    <img src="/Proyecto Coder/Assets/img/Haldor-sentado.png" alt="imagen4" width="300">
-                    <img src="/Proyecto Coder/Assets/img/lacomunidad.webp" alt="imagen5" width="300">
-                    <img src="/Proyecto Coder/Assets/img/Haldor-navidad.jpg" alt="imagen6" width="300">
+                    <img src="../Assets/img/haldor1.webp" alt="Haldor imagen 1" />
+                    <img src="../Assets/img/haldor2.webp" alt="Haldor imagen 2" />
+                    <img src="../Assets/img/haldor3.jpg" alt="Haldor imagen 3" />
+                    <img src="../Assets/img/Haldor-sentado.png" alt="Haldor sentado" />
+                    <img src="../Assets/img/lacomunidad.webp" alt="La comunidad" />
+                    <img src="../Assets/img/Haldor-navidad.jpg" alt="Haldor Navidad" />
                 </div>
-
             </section>
-        </Main>
-    </div>
-        <footer>
-            <p>© 2025 Comunidad de Haldor</p>
-        </footer>
-
+        </main>
     </div>
 
+    <footer>
+        <p>© 2025 Comunidad de Haldor</p>
+    </footer>
+
+    <script src="./Assets/js/menu.js" defer></script>
 </body>
 </html>
