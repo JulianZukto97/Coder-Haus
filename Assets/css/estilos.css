@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* --------color-------- */
+/* --------color/tema-------- */
 :root {
     --bg: #291C12;
     --panel: #111;
@@ -31,7 +31,7 @@ body {
     font-size: 16px;
 }
 
-/* --------Header/Menú-------- */
+/* --------Header/Menu-------- */
 header {
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ h1 {
     padding: 6px 8px;
 }
 
-/* --------Boton hamburguesa (mobile)-------- */
+/* --------Boton hamburguesa-------- */
 .menu-toggle {
     background: none;
     border: none;
@@ -59,7 +59,7 @@ h1 {
     padding: 6px 10px;
 }
 
-/* --------Menú-------- */
+/* --------Menu-------- */
 nav {
     display: none;
     width: 100%;
@@ -90,7 +90,7 @@ nav a {
     border: 2px solid var(--accent);
     padding: 6px 12px;
     border-radius: 7px;
-display: inline-block;
+    display: inline-block;
 }
 
 nav a:hover,
@@ -99,7 +99,6 @@ nav a:focus {
     outline: none;
 }
 
-/* Mostrar menú cuando se agrega clase .open */
 nav.open {
     display: block;
 }
@@ -175,6 +174,31 @@ main {
 }
 
 /* --------Galeria-------- */
+
+.section-geleria {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.titulo-galeria {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Ajustes del carrusel */
+.carousel {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
 .section-geleria {
     padding: 16px 0 40px 0;
 }
