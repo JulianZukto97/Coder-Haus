@@ -1,5 +1,5 @@
 
-// ----------menu.js - control menú hamburguesa----------
+// ----------control menú hamburguesa----------
 document.addEventListener('DOMContentLoaded', () => {
 const btn = document.querySelector('.menu-toggle');
 const nav = document.getElementById('main-nav');
