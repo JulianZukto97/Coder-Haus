@@ -260,6 +260,11 @@ footer {
   animation: slideUp 1.2s ease forwards;
 }
 
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
