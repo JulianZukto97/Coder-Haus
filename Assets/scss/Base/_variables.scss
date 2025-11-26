@@ -1,0 +1,15 @@
+:root { /*Variables generales*/
+--bg: #291C12;
+--panel: #111;
+--accent: #C8A677;
+--text: #f1f1f1;
+--muted: #ccc;
+--max-width: 1200px;
+--gap: 20px;
+
+/* Variables para animaciones */
+--trans-fast: 0.2s;
+--trans-default: 0.3s;
+--trans-slow: 0.6s;
+--easing: cubic-bezier(.2,.9,.3,1);
+}

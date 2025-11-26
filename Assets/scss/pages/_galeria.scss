@@ -1,0 +1,31 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.3s ease forwards;
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 1.2s ease forwards;
+}
+
+.carousel-inner img {
+    height: 600px;       
+    object-fit: cover;   
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

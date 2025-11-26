@@ -1,0 +1,30 @@
+.section-nosotros {
+padding: 24px 0;
+min-height: 60vh;
+
+.titulo-nosotros {
+color: var(--accent);
+margin-bottom: 12px;
+font-size: 1.15rem;
+}
+
+.contenedor-nosotros {
+@include grid-1col;
+
+@media (min-width: 768px) {
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+}
+}
+
+.parrafo-nosotros {
+font-size: 1rem;
+line-height: 1.6;
+font-family: "Montserrat", sans-serif;
+}
+
+.item-nosotros img {
+width: 100%;
+border-radius: 10px;
+}
+}

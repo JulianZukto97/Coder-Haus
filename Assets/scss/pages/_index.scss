@@ -1,0 +1,31 @@
+.section-index {
+padding: 24px 0;
+
+.titulo-index {
+color: var(--accent);
+margin-bottom: 12px;
+font-size: 1.15rem;
+}
+
+.contenedor-index {
+@include grid-1col;
+
+@media (min-width: 768px) {
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+align-items: center;
+}
+}
+
+.texto-index {
+font-size: 1rem;
+line-height: 1.6;
+text-align: justify;
+font-family: "Montserrat", sans-serif;
+}
+
+.item-index img {
+width: 100%;
+border-radius: 10px;
+}
+}

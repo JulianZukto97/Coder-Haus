@@ -262,7 +262,8 @@ footer {
 
 .carousel-inner img {
   height: 600px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @keyframes fadeIn {
@@ -360,6 +361,4 @@ footer {
 }
 .container-contacto .form-contacto button:hover {
   opacity: 0.9;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=main.css.map */

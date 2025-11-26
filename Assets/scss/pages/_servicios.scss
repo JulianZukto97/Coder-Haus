@@ -1,0 +1,58 @@
+.titulo-servicios {
+text-align: center;
+margin: 6px 0;
+color: var(--accent);
+font-size: 1.15rem;
+}
+
+.productos {
+text-align: left;
+margin: 20px 0 8px;
+color: var(--accent);
+font-size: 1rem;
+}
+
+.texto-servicios {
+font-size: 0.95rem;
+color: var(--text);
+text-align: center;
+font-family: "Montserrat", sans-serif;
+margin-bottom: 12px;
+}
+
+.item-Servicios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem; // espacio entre productos
+    flex-wrap: wrap; // por si en mobile querés que bajen
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        img {
+            width: 220px;  // fijá un ancho igual para todas
+            height: auto;
+            border-radius: 10px;
+        }
+
+        p {
+            margin-top: 0.7rem;
+            max-width: 220px; // coincide con el ancho de la img
+        }
+    }
+
+
+@media (min-width: 768px) {
+grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+width: 100%;
+max-width: 280px;
+border-radius: 8px;
+}
+}
