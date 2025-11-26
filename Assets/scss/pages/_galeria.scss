@@ -1,0 +1,30 @@
+.section-geleria {
+text-align: center;
+padding: 16px 0 40px;
+
+.titulo-galeria {
+color: var(--accent);
+font-size: 1.15rem;
+margin-bottom: 12px;
+}
+
+.item-galeria {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 8px;
+padding: 8px;
+justify-items: center;
+
+@media (min-width: 768px) {
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 12px;
+}
+
+img {
+width: 100%;
+height: 200px;
+border-radius: 5px;
+object-fit: cover;
+}
+}
+}

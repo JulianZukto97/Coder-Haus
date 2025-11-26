@@ -1,0 +1,6 @@
+header {
+@include flex-between;
+background-color: var(--panel);
+border-bottom: 2px solid var(--accent);
+padding: 8px 12px;
+}

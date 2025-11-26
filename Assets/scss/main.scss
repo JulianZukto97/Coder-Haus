@@ -1,0 +1,17 @@
+/* Base */
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/global';
+@import 'base/mixins';
+
+/* Layout */
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/footer';
+
+/* Pages */
+@import 'pages/index';
+@import 'pages/nosotros';
+@import 'pages/galeria';
+@import 'pages/servicios';
+@import 'pages/contacto';

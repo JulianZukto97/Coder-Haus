@@ -1,0 +1,35 @@
+html,
+body {
+height: 100%;
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: var(--bg);
+color: var(--text);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+line-height: 1.5;
+font-size: 16px;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+main {
+max-width: var(--max-width);
+margin: 0 auto;
+padding: 24px 16px;
+
+@media (min-width: 768px) {
+padding: 40px 20px;
+}
+}
+
+h1 {
+color: var(--accent);
+font-size: 1.25rem;
+padding: 6px 8px;
+}

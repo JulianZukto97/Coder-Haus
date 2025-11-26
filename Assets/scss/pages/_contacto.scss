@@ -1,0 +1,28 @@
+.container-contacto {
+padding: 18px 0;
+
+.form-contacto {
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #3d2f25;
+    background: #201612;
+    color: var(--text);
+}
+
+button {
+    background: var(--accent);
+    color: #111;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+    opacity: 0.9;
+    }
+}
+}
+}
